@@ -1,5 +1,13 @@
 # The process used to create the Nuggets project
 
+## Use Node 20
+
+Assumes nvm is used to manage Node.
+
+```sh
+nvm use 20
+```
+
 ## Use PNPM
 
 ```sh
@@ -28,3 +36,14 @@ Choices:
 ✔ Check the features needed for your project: › Linting (vite-plugin-checker + ESLint), State Management (Pinia), axios, vue-i18n
 ✔ Pick an ESLint preset: › Prettier
 ```
+
+## Integrate SuperTokens with Vue
+
+### Use supertokens-web-js module
+
+```sh
+pnpm install supertokens-web-js
+```
+
+### Create a free, hosted SuperTokens account
+
